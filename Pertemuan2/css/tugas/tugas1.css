@@ -1,0 +1,23 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.transbox{
+  width:700px;
+  height:180px;
+  margin:400px 50px;
+  background-color:black;
+  border:1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}
+.transbox h1{
+  margin:10px 10px;
+  color:white;
+}
+.transbox p{
+  margin:10px 10px;
+  color:white;
+}
