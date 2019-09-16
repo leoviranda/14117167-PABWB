@@ -1,0 +1,82 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px -100px;
+  font-family:inherit;
+
+}
+.h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navtabs{
+  width:1240px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+
+
+}
+.navtabs ul{
+  padding:0;
+  margin: 0;
+  background: black;
+  opacity: 0.6;
+  overflow: hidden;
+}
+.navtabs a{
+  color:white;
+  display: block;
+  font-weight: bold;
+  overflow: hidden;
+  text-decoration: none;
+  position:relative;
+}
+
+.navtabs a:hover{
+  background-color: #0487c0;
+  color: white;
+
+}
+.navtabs ul li{
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+  color:white;
+}
+
+
+.transbox{
+  width:1240px;
+  margin:auto;
+  background-color:black;
+  border:1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}
+.transbox h2{
+  margin: 10px 50px;
+  color: white;
+}
+.transbox p{
+  margin: 10px 50px;
+  color: white;
+}
+
+.footer{
+  background-color: #0487c0;
+  opacity: 0.6;
+  width: 1240px;
+  margin: auto;
+}
+
+.footer p{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.footer p a{
+  color: white;
+}
